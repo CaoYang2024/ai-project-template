@@ -47,7 +47,6 @@ This repository serves as an AI project template, offering a pre-configured GitH
   - `/pipelines/`: Data and model pipelines.
   - `/utils/`: Utility functions and helpers (e.g., data loaders, preprocessing functions).
   - `main.py`: Main execution script for the project.
-
 - **`/tests/`**: Unit and integration tests.
 
 ---
@@ -74,27 +73,15 @@ git clone https://github.com/username/ai-project-template.git
 cd ai-project-template
 ```
 
-### 2. **Install uv Package Manager**
-- For macOS and Linux:
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-- For Windows:
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
-
-### 3a. **Install Default Dependencies**
+### 2a. **Install Default Dependencies**
 ```bash
 uv sync --all-extras --dev
 ```
 
-### 3b. **Install your Project Specific Dependencies**
+### 2b. **Install your Project Specific Dependencies**
 ```bash
 uv add <package_name>
 ```
-
-
 
 ---
 
