@@ -73,7 +73,7 @@ git clone https://github.com/username/ai-project-template.git
 cd ai-project-template
 ```
 
-### 2a. **Install Default Dependencies**
+### 2a. **Install Default Dependencies** (includes ddacs)
 ```bash
 uv sync --all-extras --dev
 ```
